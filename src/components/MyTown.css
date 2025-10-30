@@ -1,0 +1,82 @@
+.weather-container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 16px;
+  max-width: auto;
+  margin: 40px auto;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.town-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1e3a8a;
+  margin-bottom: 8px;
+}
+
+.town-subtitle {
+  font-size: 20px;
+  color: #4b5563;
+  margin-bottom: 25px;
+}
+
+.town-images {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.town-img {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+
+.temp-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.weather-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.temperature {
+  font-size: 48px;
+  font-weight: 700;
+  color: #000;
+}
+
+.unit-toggle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.unit {
+  font-size: 18px;
+  cursor: pointer;
+  color: #9ca3af; /* gray */
+  transition: color 0.3s ease;
+}
+
+.unit:hover {
+  color: #22d3ee; /* light blue on hover */
+}
+
+.unit.active {
+  color: #10b981; /* green for active */
+  font-weight: bold;
+}
+
+.weather-container h1 {
+  color: #1e3a8a;
+  font-size: 22px;
+  margin-bottom: 25px;
+}

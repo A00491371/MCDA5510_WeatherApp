@@ -1,0 +1,133 @@
+.about-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 30px;
+  padding: 40px;
+  background-color: #f0f4ff;
+  flex-wrap: wrap;
+}
+
+/* Profile Card */
+.profile-card {
+  flex: 1;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 600px;
+  transition: all 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+}
+
+/* Profile Image */
+.about-profile-pic {
+  width: 200px;                /* Increased size */
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #38bdf8;
+  object-fit: cover;
+  margin-bottom: 25px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-profile-pic:hover {
+  transform: scale(1.05);
+  border-color: #10b981; /* Soft green hover accent */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Text inside profile card */
+.about-name {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}
+
+.about-role {
+  font-size: 18px;
+  color: #475569;
+  font-style: italic;
+  margin-bottom: 25px;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  gap: 25px;
+}
+
+.social-icons img {
+  width: 35px;  /* slightly larger */
+  height: 35px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+  filter: brightness(1.3);
+}
+
+/* About Text Card */
+.about-container {
+  flex: 2;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 600px;
+  transition: all 0.3s ease;
+}
+
+.about-container:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+}
+
+/* Section titles and text */
+.about-question {
+  font-size: 22px;
+  color: #2563eb;
+  font-weight: 600;
+  margin-bottom: 12px;
+  border-left: 4px solid #38bdf8;
+  padding-left: 12px;
+}
+
+.about-answer {
+  font-size: 18px;
+  color: #374151;
+  text-align: justify;
+  line-height: 1.8;
+  margin-bottom: 25px;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+  .about-page {
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile-card,
+  .about-container {
+    width: 100%;
+    min-height: auto;
+  }
+  .about-profile-pic {
+    width: 180px;
+    height: 180px;
+  }
+}
