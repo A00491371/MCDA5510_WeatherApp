@@ -33,16 +33,16 @@ function AboutMe() {
             phases of the software development life cycle, focusing on developing efficient and high-performing backend systems.
             Known for being a quick learner and a resilient problem solver, I bring both technical expertise and perseverance to
             every project I work on. Having taken a short career break for health reasons, I am now re-energized and eager to
-            transition into the field of Data Analytics—an area where I can combine my technical foundation with analytical
+            transition into the field of Data Analytics - an area where I can combine my technical foundation with analytical
             thinking to uncover meaningful insights. Outside of work, I enjoy drawing and find watching pottery and ceramic
-            cup-making videos incredibly relaxing—it’s like therapy without the price tag!
+            cup-making videos incredibly relaxing - it’s like therapy without the price tag!
           </p>
         </div>
 
         <div className="about-section">
           <h2 className="about-question">Why I am pursuing a career in Data Analytics?</h2>
           <p className="about-answer">
-            Data has always fascinated me—how raw numbers can tell powerful stories when analyzed correctly. With my background in
+            Data has always fascinated me - how raw numbers can tell powerful stories when analyzed correctly. With my background in
             software development, I believe transitioning into Data Analytics is a natural next step. I am currently enhancing my
             skills in Python, data visualization, and front-end tools to build interactive analytical applications. Additionally,
             I am exploring DevOps concepts to understand how automation can streamline the development and deployment of data-driven
