@@ -91,3 +91,13 @@ Build and deploy:
 ```bash
 npm run build
 ```
+
+---
+
+## Author
+
+Name: Soundarya Venkataraman
+A# Number: A00491371
+Saint Mary's University
+
+----
